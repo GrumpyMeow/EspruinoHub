@@ -22,9 +22,10 @@
   "license": "MPL-2.0",
   "dependencies": {
     "@abandonware/bleno": "^0.5.1-2",
+    "@abandonware/noble": "^1.9.2-8",
     "json5": "^1.0.1",
     "mqtt": "^2.0.1",
-    "@abandonware/noble": "^1.9.2-8",
-    "websocket": "^1.0.24"
+    "websocket": "^1.0.24",
+    "xiaomi-gap": "^1.0.1"
   }
 }
