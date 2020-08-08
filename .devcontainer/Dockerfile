@@ -17,7 +17,7 @@ RUN apt-get -yqq update && \
     apt-get -yqq autoremove && \
     apt-get -yqq clean && \
     rm -rf /var/lib/apt/lists/* /var/cache/* /tmp/* /var/tmp/* && \
-    git config http.sslVerify false
+    git config --global http.sslVerify false
 
 RUN cd / && \
     wget --no-check-certificate --quiet http://nodejs.org/dist/${nodev}/${nodefile}.tar.gz && \
